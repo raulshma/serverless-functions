@@ -1,0 +1,20 @@
+{
+  "name": "serverless-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulshma/serverless-functions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raulshma/serverless-functions/issues"
+  },
+  "homepage": "https://github.com/raulshma/serverless-functions#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.8.0"
+  }
+}
