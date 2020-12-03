@@ -909,10 +909,10 @@ util-deprecate@^1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-vercel@^21.0.0:
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/vercel/-/vercel-21.0.0.tgz#4be0218649bd86f781f99a7c4a3ef2f83407f03e"
-  integrity sha512-xe0rc9Fj+CgT226TAgN0YVMgiHvs6QsPzIR6K5m2Dqc8aQjueaM0a4aTHxPErQAS6h32O7TC0QtTyyEwBtVGNw==
+vercel@^21.0.1:
+  version "21.0.1"
+  resolved "https://registry.yarnpkg.com/vercel/-/vercel-21.0.1.tgz#85d8052dcdf93f9fc62b6404d3a8cd8b8a1b2874"
+  integrity sha512-N3xS1ydENdtC/i4RrJXg7Z9C0XSA8c0PQSM58WG+TkYY7BvSihv5kLqQHjzj9AXHkaY76bTfEpSLi1kmp0PjnQ==
   dependencies:
     "@vercel/build-utils" "2.6.1-canary.0"
     "@vercel/go" "1.1.6"

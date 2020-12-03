@@ -15,6 +15,7 @@
   "homepage": "https://github.com/raulshma/serverless-functions#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "got": "^11.8.0"
+    "got": "^11.8.0",
+    "vercel": "^21.0.1"
   }
 }
