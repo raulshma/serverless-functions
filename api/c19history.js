@@ -2,10 +2,15 @@ const got = require('got');
 
 // API: https://disease.sh/v3/covid-19/historical/all?lastdays=all
 module.exports = async (req, res) => {
-  const days = req?.query?.days;
+  const {
+    query: { days },
+  } = req;
+  console.log(days);
   try {
     const { body } = await got(
-      `https://disease.sh/v3/covid-19/historical/all?lastdays=${days ?? 30}`
+      `https://disease.sh/v3/covid-19/historical/all?lastdays=${
+        days ? days : 30
+      }`
     );
     const items = JSON.parse(body);
     const cases = [];
